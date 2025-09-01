@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model name="MinuteMind" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="21510" systemVersion="23A344" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Project" representedClassName="Project" syncable="YES">
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <relationship name="meetings" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Meeting" inverseName="project" inverseEntity="Meeting"/>
+    </entity>
+    <entity name="Meeting" representedClassName="Meeting" syncable="YES">
+        <attribute name="title" optional="YES" attributeType="String"/>
+        <attribute name="date" optional="YES" attributeType="Date"/>
+        <relationship name="project" optional="YES" minCount="1" toMany="NO" deletionRule="Nullify" destinationEntity="Project" inverseName="meetings" inverseEntity="Project"/>
+        <relationship name="recordings" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Recording" inverseName="meeting" inverseEntity="Recording"/>
+    </entity>
+    <entity name="Recording" representedClassName="Recording" syncable="YES">
+        <attribute name="id" optional="NO" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="timestamp" optional="YES" attributeType="Date"/>
+        <attribute name="duration" optional="YES" attributeType="Double" defaultValueString="0"/>
+        <attribute name="audioFileURL" optional="YES" attributeType="String"/>
+        <attribute name="transcript" optional="YES" attributeType="String"/>
+        <attribute name="summary" optional="YES" attributeType="String"/>
+        <relationship name="meeting" optional="YES" minCount="1" toMany="NO" deletionRule="Nullify" destinationEntity="Meeting" inverseName="recordings" inverseEntity="Meeting"/>
+    </entity>
+    <elements>
+        <element name="Project" positionX="160" positionY="160" width="128" height="90"/>
+        <element name="Meeting" positionX="160" positionY="160" width="128" height="120"/>
+        <element name="Recording" positionX="160" positionY="160" width="128" height="150"/>
+    </elements>
+</model>
