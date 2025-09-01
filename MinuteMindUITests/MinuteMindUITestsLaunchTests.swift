@@ -1,13 +1,13 @@
 //
-//  LecturaUITestsLaunchTests.swift
-//  LecturaUITests
+//  MinuteMindUITestsLaunchTests.swift
+//  MinuteMindUITests
 //
 //  Created by Thoth Hernandez on 9/1/25.
 //
 
 import XCTest
 
-final class LecturaUITestsLaunchTests: XCTestCase {
+final class MinuteMindUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true

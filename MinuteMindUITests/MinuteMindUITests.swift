@@ -1,13 +1,13 @@
 //
-//  LecturaUITests.swift
-//  LecturaUITests
+//  MinuteMindUITests.swift
+//  MinuteMindUITests
 //
 //  Created by Thoth Hernandez on 9/1/25.
 //
 
 import XCTest
 
-final class LecturaUITests: XCTestCase {
+final class MinuteMindUITests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

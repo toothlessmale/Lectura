@@ -12,37 +12,37 @@
 			containerPortal = 7F52E2C42E6554F900D6E862 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 7F52E2CB2E6554F900D6E862;
-			remoteInfo = Lectura;
+			remoteInfo = MinuteMind;
 		};
 		7F52E2E42E6554FA00D6E862 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 7F52E2C42E6554F900D6E862 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 7F52E2CB2E6554F900D6E862;
-			remoteInfo = Lectura;
+			remoteInfo = MinuteMind;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		7F52E2CC2E6554F900D6E862 /* Lectura.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lectura.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		7F52E2D92E6554FA00D6E862 /* LecturaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LecturaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		7F52E2E32E6554FA00D6E862 /* LecturaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LecturaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F52E2CC2E6554F900D6E862 /* MinuteMind.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MinuteMind.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F52E2D92E6554FA00D6E862 /* MinuteMindTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MinuteMindTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F52E2E32E6554FA00D6E862 /* MinuteMindUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MinuteMindUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		7F52E2CE2E6554F900D6E862 /* Lectura */ = {
+		7F52E2CE2E6554F900D6E862 /* MinuteMind */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = Lectura;
+			path = MinuteMind;
 			sourceTree = "<group>";
 		};
-		7F52E2DC2E6554FA00D6E862 /* LecturaTests */ = {
+		7F52E2DC2E6554FA00D6E862 /* MinuteMindTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = LecturaTests;
+			path = MinuteMindTests;
 			sourceTree = "<group>";
 		};
-		7F52E2E62E6554FA00D6E862 /* LecturaUITests */ = {
+		7F52E2E62E6554FA00D6E862 /* MinuteMindUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = LecturaUITests;
+			path = MinuteMindUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -75,9 +75,9 @@
 		7F52E2C32E6554F900D6E862 = {
 			isa = PBXGroup;
 			children = (
-				7F52E2CE2E6554F900D6E862 /* Lectura */,
-				7F52E2DC2E6554FA00D6E862 /* LecturaTests */,
-				7F52E2E62E6554FA00D6E862 /* LecturaUITests */,
+				7F52E2CE2E6554F900D6E862 /* MinuteMind */,
+				7F52E2DC2E6554FA00D6E862 /* MinuteMindTests */,
+				7F52E2E62E6554FA00D6E862 /* MinuteMindUITests */,
 				7F52E2CD2E6554F900D6E862 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -85,9 +85,9 @@
 		7F52E2CD2E6554F900D6E862 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7F52E2CC2E6554F900D6E862 /* Lectura.app */,
-				7F52E2D92E6554FA00D6E862 /* LecturaTests.xctest */,
-				7F52E2E32E6554FA00D6E862 /* LecturaUITests.xctest */,
+				7F52E2CC2E6554F900D6E862 /* MinuteMind.app */,
+				7F52E2D92E6554FA00D6E862 /* MinuteMindTests.xctest */,
+				7F52E2E32E6554FA00D6E862 /* MinuteMindUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,9 +95,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7F52E2CB2E6554F900D6E862 /* Lectura */ = {
+		7F52E2CB2E6554F900D6E862 /* MinuteMind */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7F52E2ED2E6554FA00D6E862 /* Build configuration list for PBXNativeTarget "Lectura" */;
+			buildConfigurationList = 7F52E2ED2E6554FA00D6E862 /* Build configuration list for PBXNativeTarget "MinuteMind" */;
 			buildPhases = (
 				7F52E2C82E6554F900D6E862 /* Sources */,
 				7F52E2C92E6554F900D6E862 /* Frameworks */,
@@ -108,18 +108,18 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				7F52E2CE2E6554F900D6E862 /* Lectura */,
+				7F52E2CE2E6554F900D6E862 /* MinuteMind */,
 			);
-			name = Lectura;
+			name = MinuteMind;
 			packageProductDependencies = (
 			);
-			productName = Lectura;
-			productReference = 7F52E2CC2E6554F900D6E862 /* Lectura.app */;
+			productName = MinuteMind;
+			productReference = 7F52E2CC2E6554F900D6E862 /* MinuteMind.app */;
 			productType = "com.apple.product-type.application";
 		};
-		7F52E2D82E6554FA00D6E862 /* LecturaTests */ = {
+		7F52E2D82E6554FA00D6E862 /* MinuteMindTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7F52E2F02E6554FA00D6E862 /* Build configuration list for PBXNativeTarget "LecturaTests" */;
+			buildConfigurationList = 7F52E2F02E6554FA00D6E862 /* Build configuration list for PBXNativeTarget "MinuteMindTests" */;
 			buildPhases = (
 				7F52E2D52E6554FA00D6E862 /* Sources */,
 				7F52E2D62E6554FA00D6E862 /* Frameworks */,
@@ -131,18 +131,18 @@
 				7F52E2DB2E6554FA00D6E862 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				7F52E2DC2E6554FA00D6E862 /* LecturaTests */,
+				7F52E2DC2E6554FA00D6E862 /* MinuteMindTests */,
 			);
-			name = LecturaTests;
+			name = MinuteMindTests;
 			packageProductDependencies = (
 			);
-			productName = LecturaTests;
-			productReference = 7F52E2D92E6554FA00D6E862 /* LecturaTests.xctest */;
+			productName = MinuteMindTests;
+			productReference = 7F52E2D92E6554FA00D6E862 /* MinuteMindTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		7F52E2E22E6554FA00D6E862 /* LecturaUITests */ = {
+		7F52E2E22E6554FA00D6E862 /* MinuteMindUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7F52E2F32E6554FA00D6E862 /* Build configuration list for PBXNativeTarget "LecturaUITests" */;
+			buildConfigurationList = 7F52E2F32E6554FA00D6E862 /* Build configuration list for PBXNativeTarget "MinuteMindUITests" */;
 			buildPhases = (
 				7F52E2DF2E6554FA00D6E862 /* Sources */,
 				7F52E2E02E6554FA00D6E862 /* Frameworks */,
@@ -154,13 +154,13 @@
 				7F52E2E52E6554FA00D6E862 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				7F52E2E62E6554FA00D6E862 /* LecturaUITests */,
+				7F52E2E62E6554FA00D6E862 /* MinuteMindUITests */,
 			);
-			name = LecturaUITests;
+			name = MinuteMindUITests;
 			packageProductDependencies = (
 			);
-			productName = LecturaUITests;
-			productReference = 7F52E2E32E6554FA00D6E862 /* LecturaUITests.xctest */;
+			productName = MinuteMindUITests;
+			productReference = 7F52E2E32E6554FA00D6E862 /* MinuteMindUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -186,7 +186,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 7F52E2C72E6554F900D6E862 /* Build configuration list for PBXProject "Lectura" */;
+			buildConfigurationList = 7F52E2C72E6554F900D6E862 /* Build configuration list for PBXProject "MinuteMind" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -200,9 +200,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7F52E2CB2E6554F900D6E862 /* Lectura */,
-				7F52E2D82E6554FA00D6E862 /* LecturaTests */,
-				7F52E2E22E6554FA00D6E862 /* LecturaUITests */,
+				7F52E2CB2E6554F900D6E862 /* MinuteMind */,
+				7F52E2D82E6554FA00D6E862 /* MinuteMindTests */,
+				7F52E2E22E6554FA00D6E862 /* MinuteMindUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -258,12 +258,12 @@
 /* Begin PBXTargetDependency section */
 		7F52E2DB2E6554FA00D6E862 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 7F52E2CB2E6554F900D6E862 /* Lectura */;
+			target = 7F52E2CB2E6554F900D6E862 /* MinuteMind */;
 			targetProxy = 7F52E2DA2E6554FA00D6E862 /* PBXContainerItemProxy */;
 		};
 		7F52E2E52E6554FA00D6E862 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 7F52E2CB2E6554F900D6E862 /* Lectura */;
+			target = 7F52E2CB2E6554F900D6E862 /* MinuteMind */;
 			targetProxy = 7F52E2E42E6554FA00D6E862 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -399,18 +399,14 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = NBYLN7HA9W;
 				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+                                GENERATE_INFOPLIST_FILE = NO;
+                                INFOPLIST_FILE = MinuteMind/Info.plist;
+                                LD_RUNPATH_SEARCH_PATHS = (
+                                        "$(inherited)",
+                                        "@executable_path/Frameworks",
+                                );
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.Lectura.Lectura.Lectura;
+				PRODUCT_BUNDLE_IDENTIFIER = com.MinuteMind.MinuteMind.MinuteMind;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -427,18 +423,14 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = NBYLN7HA9W;
 				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+                                GENERATE_INFOPLIST_FILE = NO;
+                                INFOPLIST_FILE = MinuteMind/Info.plist;
+                                LD_RUNPATH_SEARCH_PATHS = (
+                                        "$(inherited)",
+                                        "@executable_path/Frameworks",
+                                );
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.Lectura.Lectura.Lectura;
+				PRODUCT_BUNDLE_IDENTIFIER = com.MinuteMind.MinuteMind.MinuteMind;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -456,12 +448,12 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.Lectura.Lectura.LecturaTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.MinuteMind.MinuteMind.MinuteMindTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lectura.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Lectura";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MinuteMind.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MinuteMind";
 			};
 			name = Debug;
 		};
@@ -475,12 +467,12 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.Lectura.Lectura.LecturaTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.MinuteMind.MinuteMind.MinuteMindTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lectura.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Lectura";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MinuteMind.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MinuteMind";
 			};
 			name = Release;
 		};
@@ -492,12 +484,12 @@
 				DEVELOPMENT_TEAM = NBYLN7HA9W;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.Lectura.Lectura.LecturaUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.MinuteMind.MinuteMind.MinuteMindUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Lectura;
+				TEST_TARGET_NAME = MinuteMind;
 			};
 			name = Debug;
 		};
@@ -509,19 +501,19 @@
 				DEVELOPMENT_TEAM = NBYLN7HA9W;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.Lectura.Lectura.LecturaUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.MinuteMind.MinuteMind.MinuteMindUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Lectura;
+				TEST_TARGET_NAME = MinuteMind;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7F52E2C72E6554F900D6E862 /* Build configuration list for PBXProject "Lectura" */ = {
+		7F52E2C72E6554F900D6E862 /* Build configuration list for PBXProject "MinuteMind" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7F52E2EB2E6554FA00D6E862 /* Debug */,
@@ -530,7 +522,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7F52E2ED2E6554FA00D6E862 /* Build configuration list for PBXNativeTarget "Lectura" */ = {
+		7F52E2ED2E6554FA00D6E862 /* Build configuration list for PBXNativeTarget "MinuteMind" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7F52E2EE2E6554FA00D6E862 /* Debug */,
@@ -539,7 +531,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7F52E2F02E6554FA00D6E862 /* Build configuration list for PBXNativeTarget "LecturaTests" */ = {
+		7F52E2F02E6554FA00D6E862 /* Build configuration list for PBXNativeTarget "MinuteMindTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7F52E2F12E6554FA00D6E862 /* Debug */,
@@ -548,7 +540,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7F52E2F32E6554FA00D6E862 /* Build configuration list for PBXNativeTarget "LecturaUITests" */ = {
+		7F52E2F32E6554FA00D6E862 /* Build configuration list for PBXNativeTarget "MinuteMindUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7F52E2F42E6554FA00D6E862 /* Debug */,
